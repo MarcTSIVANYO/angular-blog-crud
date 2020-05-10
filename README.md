@@ -1,4 +1,11 @@
-# Angular9Crud
+# Angular9Crud with REST API
+
+#This code will not work without first setting up the MYSQL database
+
+#Download the api code here
+https://github.com/MarcTSIVANYO/angular-crud-api
+
+# Angular9 CLI
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.0-rc.7.
 
