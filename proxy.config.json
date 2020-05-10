@@ -1,0 +1,7 @@
+{
+    "/api": {
+      "target": "http://localhost/covid-innov/api/blogs",
+      "secure": false,
+      "changeOrigin": true
+    }
+}

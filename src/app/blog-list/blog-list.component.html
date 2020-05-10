@@ -1,0 +1,30 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+      <h2>Blog List</h2>
+    </div>
+    <div class="panel-body">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Titre</th>
+            <th>Type</th>
+            <th>Detail</th>
+            <th>View</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let blog of blogs | async">
+            <td>{{blog.title}}</td>
+            <td>{{blog.type}}</td>
+            <td>{{blog.detail}}</td>
+            <td>{{blog.view}}</td>
+            <td><button (click)="deleteBlog(blog.id)" class="btn btn-danger">Delete</button>
+                <button (click)="updateBlog(blog.id)" class="btn btn-warning" style="margin-left: 10px">Update</button>
+                <button (click)="blogDetails(blog.id)" class="btn btn-info" style="margin-left: 10px">Details</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
