@@ -32,4 +32,8 @@ export class BlogDetailsComponent implements OnInit {
   list(){
     this.router.navigate(['blogs']);
   }
+   updateBlog(id: number){
+    this.router.navigate(['update', id]);
+  }
+  
 }

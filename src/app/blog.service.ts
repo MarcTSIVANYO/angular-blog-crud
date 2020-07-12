@@ -9,7 +9,7 @@ import { Blog } from './blog';
 
 export class BlogService {
 
-  private baseUrl = "http://localhost/covid-innov/api/blogs";
+  private baseUrl = "http://localhost/api/blogs";
   constructor(private http: HttpClient) { }
   
 
