@@ -3,7 +3,7 @@
 #This code will not work without first setting up the MYSQL database
 
 #Download the api code here
-https://github.com/MarcTSIVANYO/angular-crud-api
+https://github.com/MarcTSIVANYO/api-crud
 
 # Angular9 CLI
 
